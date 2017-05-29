@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Layouts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+	<div class="container-fluid"><br>
+		<center><h2>Different tables<h2></center>
+		<div class="row">
+			<div class="col-md-6">
+						<h3>Simple generic table using class="table"</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr>
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr>
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<br>
+			</div>
+			<div class="col-md-6">
+						<h3>Condensed table(without padding) using class="table table-condensed" </h3>
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr>
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr>
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<br>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+						<h3>Striped table(alternate colour) using class="table table-striped" </h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr>
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr>
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<br>
+			</div>
+			<div class="col-md-6">
+						<h3>hover table(onhover effects) using class="table table-hover" </h3>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr>
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr>
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+
+			</tbody>
+		</table>
+
+		<br>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+						<h3>bordered table(with borders) using class="table table-bordered" </h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr>
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr>
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<br>
+			</div>
+			<div class="col-md-6">
+				
+		<h3>contextual table(with borders) using differnt classes within &lt;tr&gt; and &lt;td&gt; </h3>
+		<ul>
+			<li>class="active" applies the hover color</li>
+			<li>class="success" indicate the success or positive response</li>
+			<li>class="info" indicate nutral informative change or action </li>
+			<li>class="warning" attention </li>
+			<li>class="danger" potentially negative response </li>
+
+		</ul>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Salary</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="active">
+					<td>Raman bansal</td>
+					<td>20</td>
+					<td>$1 million</td>
+				</tr>
+				<tr class="success">
+					<td>Vineet Shah</td>
+					<td>18</td>
+					<td>$5 million</td>
+				</tr>
+				<tr class="info">
+					<td>Aditya Jain</td>
+					<td>18</td>
+					<td>$10 million</td>
+				</tr>
+				<tr class="warning">
+					<td>Suryaveer</td>
+					<td>18</td>
+					<td>$-1 million</td>
+				</tr>
+				<tr class="danger">
+					<td>Ankit Gaur</td>
+					<td>18</td>
+					<td>$10 billion</td>
+				</tr>
+
+
+
+			</tbody>
+		</table>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

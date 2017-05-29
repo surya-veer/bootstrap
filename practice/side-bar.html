@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/side-bar.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 0;color: #16A085">
+		<div class="container-fluid" style="color: #16A085">
+			<!-- logo -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">AYRUS</a>
+			</div>
+			<!-- list items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>  <!-- active class shows that currently working section -->
+					<li><a href="#">Music</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>		
+		</div>	
+	</nav>
+	<div id="wrapper">
+		<!-- side bar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li><a href="#" id="toggle-button"><span id="open-drawer" class="glyphicon glyphicon-menu-right"></span><span  class=""></span></a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span><span  class="text-default">Profile</span></a></li>
+				<li><a href="#" ><span class="glyphicon glyphicon-globe"></span><span class="text-default">Notifications</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-comment"><span  class="text-default">Message</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-log-out"><span  class="text-default">Logout</a></li>
+			</ul>
+		</div>
+		<!-- page content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+					    This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+						This is suryaveer<br><b>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script>
+		//toiggle script
+		$("#toggle-button").click( function(e){
+			e.preventDefault();
+			$("#wrapper").toggleClass("menuDispalyed");
+			$("#open-drawer").queue(function(next){
+				$("#open-drawer").toggleClass("glyphicon glyphicon-menu-right");
+				$("#open-drawer").toggleClass("glyphicon glyphicon-menu-left");
+				next();
+			});
+		});
+	</script>
+<div class="rp bqq agk">
+        <div class="rv" style="background-image: url(assets/img/iceland.jpg);"></div>
+        <div class="rq awx">
+          <a href="profile/index.html">
+            <img class="bqr" src="assets/img/avatar-dhg.png">
+          </a>
+
+          <h6 class="rr">
+            <a class="bph" href="profile/index.html">Dave Gamache</a>
+          </h6>
+
+          <p class="agk">I wish i was a little bit taller, wish i was a baller, wish i had a girl…&nbsp;also.</p>
+
+          <ul class="bqs">
+            <li class="bqt">
+              <a href="#userModal" class="bph" data-toggle="modal">
+                Friends
+                <h6 class="afl">12M</h6>
+              </a>
+            </li>
+
+            <li class="bqt">
+              <a href="#userModal" class="bph" data-toggle="modal">
+                Enemies
+                <h6 class="afl">1</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+</body>
+</html>

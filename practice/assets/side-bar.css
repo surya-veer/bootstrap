@@ -1,0 +1,92 @@
+#wrapper{
+	margin-top: 50px;
+}
+
+/*sidebar wrapper*/
+#sidebar-wrapper{
+	z-index: 1;
+	height:100%;
+	position: fixed;
+	width: 50px;
+	background-color: #2C3E50;
+	overflow-y: hidden;
+	-webkit-transition:.5s;
+}
+.text-default{
+	display: none;
+	padding: 10px;
+}
+
+
+/*page content*/
+#page-content-wrapper{
+	width: 100%;
+	padding: 15px;
+	padding-left: 50px;
+	-webkit-transition:.5s;
+}
+
+/*changing the width of sidebar to diaplay*/
+#wrapper.menuDispalyed #sidebar-wrapper{
+	width: 200px;
+	-webkit-transition:.2s;
+}
+
+
+#wrapper.menuDispalyed #page-content-wrapper{
+	padding-left: 200px;
+	-webkit-transition:.2s;
+
+}
+#wrapper.menuDispalyed .sidebar-nav li{
+	text-indent: 10px;
+	line-height: 40px;
+}
+#open-drawer {
+	text-indent: 9px;
+	line-height: 40px;
+}
+
+
+#wrapper.menuDispalyed .text-default{
+	-webkit-animation: .5s ease 0s normal forwards 1 fadein;
+	opacity: 0;
+	display: unset;
+}
+@-webkit-keyframes fadein{
+	0%{opacity: 0;}
+	20%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+/*sidebar-nav styling*/
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 9px;
+	line-height: 40px;
+}
+.sidebar-nav a{
+	text-decoration: none;
+	display: block;
+	color: #ddd;
+}
+.sidebar-nav li a:hover{
+	background: #16A085;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+	background: #16A085;
+	 color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: #16A085 ;
+}
